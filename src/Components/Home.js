@@ -89,6 +89,7 @@ export default function Home() {
     else if (regex.test(email) === false)
     {
       setisValid(false)
+      setError(true)
     }
     else {
       setisValid(true)
