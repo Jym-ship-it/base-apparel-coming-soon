@@ -78,6 +78,7 @@ export default function Home() {
     setEmail(e.target.value)
     setisEmpty(false)
     setError(false)
+    setisValid(true)
   }
   const handleClick = () => {
     const regex = /^(([^<>()[],;:\s@\]+([^<>()[\],;:\s@]+)*)|(.+))@(([^<>()[\],;:\s@]+)+[^<>()[\],;:\s@]{2,})$/i;
